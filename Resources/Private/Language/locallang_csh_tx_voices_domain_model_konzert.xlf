@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-09T17:47:28Z" product-name="voices">
+		<header/>
+		<body>
+			<trans-unit id="datum.description">
+				<source>Datum</source>
+			</trans-unit>
+			<trans-unit id="beginn.description">
+				<source>Beginn</source>
+			</trans-unit>
+			<trans-unit id="place.description">
+				<source>Ort</source>
+			</trans-unit>
+			<trans-unit id="address.description">
+				<source>address</source>
+			</trans-unit>
+			<trans-unit id="remark.description">
+				<source>Bemerkung</source>
+			</trans-unit>
+			<trans-unit id="leitung_r.description">
+				<source>Leitung R</source>
+			</trans-unit>
+			<trans-unit id="leitun_l.description">
+				<source>Leitung L</source>
+			</trans-unit>
+			<trans-unit id="zusagen.description">
+				<source>zusagen</source>
+			</trans-unit>
+			<trans-unit id="absagen.description">
+				<source>absagen</source>
+			</trans-unit>
+			<trans-unit id="vielleichts.description">
+				<source>vielleichts</source>
+			</trans-unit>
+			<trans-unit id="parts.description">
+				<source>Teilnahmen</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

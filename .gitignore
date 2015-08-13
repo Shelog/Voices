@@ -41,3 +41,13 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+Documentation.tmpl/Classes/Controller/SingerController.php
+Documentation.tmpl/Classes/Controller/KonzertplanController.php
+Documentation.tmpl/Classes/Domain/Model/Konzert.php
+Documentation.tmpl/Classes/Domain/Model/Konzertplan.php
+Documentation.tmpl/Classes/Domain/Model/Part.php
+Documentation.tmpl/Classes/Domain/Model/Singer.php
+Documentation.tmpl/Classes/Domain/Repository/KonzertRepository.php
+Documentation.tmpl/Classes/Domain/Repository/SingerRepository.php
+Documentation.tmpl/Classes/Domain/Repository/PartRepository.php
+Documentation.tmpl/Classes/Domain/Repository/KonzertplanRepository.php

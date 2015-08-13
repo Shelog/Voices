@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-09T17:47:28Z" product-name="voices">
+		<header/>
+		<body>
+			<trans-unit id="bezeichnung.description">
+				<source>Bezeichnung</source>
+			</trans-unit>
+			<trans-unit id="konzerts.description">
+				<source>Konzerte</source>
+			</trans-unit>
+			<trans-unit id="singers.description">
+				<source>Chormitglieder</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

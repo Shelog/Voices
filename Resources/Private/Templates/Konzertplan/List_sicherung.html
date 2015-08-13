@@ -1,0 +1,100 @@
+
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Konzertplan</h1>
+
+<f:flashMessages renderMode="div" />
+
+
+Test!
+
+<!--
+<table  class="table table-bordered table-striped" >
+	
+	<f:for each="{konzertplans}" as="konzertplan">
+	<tr>
+		<td>
+			Chormitglieder
+        </td>
+        <f:for each="{konzertplan.konzerts}" as="konzert">
+		<td><f:link.action action="show" controller="Konzert" arguments="{konzertplan:konzertplan,konzert:konzert}"> {konzert.datum}</f:link.action><br />
+        
+                     <table width=100% style="background-color:#DCFF98">       
+					 <tr><td width=33%>
+                     
+                     
+                     <f:for each="{konzert.parts}" as="part">
+                     <f:link.action action="zaehlen" controller="Part" arguments="{konzertplan:konzertplan,konzert:konzert,part:part}">ja</f:link.action">
+                     </f:for>
+                     
+                     ja
+                     </td><td width=33%>nein</td><td> vielleicht</td>
+					 </tr>
+                     </table>
+        </td>
+			</f:for>
+	</tr>
+    
+    <f:for each="{konzertplan.singers}" as="singer">
+	<tr><td>{singer.vorname} {singer.nachname} {singer.stimme}</td>         
+                
+		<f:for each="{konzertplan.konzerts}" as="konzert">
+				   
+            <td>
+			   <div class="teilnahme" style="max-height:90px;overflow:hidden"> 
+				<f:for each="{konzert.parts}" as="part">
+            
+                <f:if condition="{part.konzert.datum} == {konzert.datum}">
+					
+                	<f:if condition="{part.singer.nachname} == {singer.nachname}">
+						<table width=100% style="background-color:#DCFF98">
+						<tr>
+						<td width=33%>{part.ja} </td><td width=33%>{part.nein} </td><td>{part.vielleicht} </td>
+						</tr>
+						<tr>
+						<td colspan="3">{part.comment}</td>
+						</tr>
+						</table> 
+								
+						<f:link.action action="edit" controller="Part" arguments="{konzertplan:konzertplan,part:part,konzert:konzert,singer:singer}">Ändern</f:link.action>   <br /><br /><br /><br /><br />
+						
+					</f:if>
+                </f:if>
+                
+               
+						</f:for>
+                
+                <f:link.action action="addForm" controller="Part" arguments="{konzertplan:konzertplan,konzert:konzert,part:part,singer:singer}">Teilnahme neu anlegen</f:link.action>
+                
+                
+                
+                
+                </div>
+		</td>
+						
+				    
+					</f:for> 
+                </tr>
+			
+			</f:for>
+        </tr>
+	
+    
+
+	</f:for>
+</table>
+-->
+
+</f:section>

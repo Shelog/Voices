@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-09T17:47:28Z" product-name="voices">
+		<header/>
+		<body>
+			<trans-unit id="ja.description">
+				<source>ja</source>
+			</trans-unit>
+			<trans-unit id="nein.description">
+				<source>nein</source>
+			</trans-unit>
+			<trans-unit id="vielleicht.description">
+				<source>vielleicht</source>
+			</trans-unit>
+			<trans-unit id="comment.description">
+				<source>Kommentar</source>
+			</trans-unit>
+			<trans-unit id="konzert.description">
+				<source>Konzert</source>
+			</trans-unit>
+			<trans-unit id="singer.description">
+				<source>Chormitglied</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

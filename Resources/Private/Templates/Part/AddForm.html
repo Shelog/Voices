@@ -1,0 +1,59 @@
+<f:layout name="Default" />
+
+This template displays a NEW form for the current domain object.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        New.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+<h1>Teilnahme von {singer.vorname} {singer.nachname} am {konzert.datum}</h1> 
+
+<f:flashMessages renderMode="div" />
+
+<f:render partial="FormErrors" arguments="{object:Part}" />
+
+Bitte ja, nein oder vielleicht mit einem x markieren
+
+
+<f:form method="post" controller="Part" action="add" name="part" object="{part}" arguments="{konzertplan:konzertplan,part:part,konzert:konzert,zusagen:zusagen,singer:singer}">
+
+<table class="table table-bordered table-striped" >
+<tr><td>
+
+<label for="ja">
+	<f:translate key="tx_voices_domain_model_part.ja" />
+</label>
+	<f:form.textfield property="ja" /></td><td>
+<label for="nein">
+	<f:translate key="tx_voices_domain_model_part.nein" />
+</label>
+	<f:form.textfield property="nein" /></td><td>
+<label for="vielleicht">
+	<f:translate key="tx_voices_domain_model_part.vielleicht" />
+</label>
+	<f:form.textfield property="vielleicht" /></td><td>
+<label for="kommentar">
+	Kommentar
+</label>
+	<f:form.textfield property="comment" /></td>    
+</tr>
+</table>    
+
+<f:form.textfield class="hidden" property="konzert" value="{konzert.zusagen}" />
+
+<f:form.textfield class="hidden" property="konzert" value="{konzert.uid}" />
+
+<f:form.textfield class="hidden" property="singer" value="{singer.uid}" />
+
+<br /><br />
+<f:form.submit value="Absenden" />
+
+</f:form>  
+
+</f:section>

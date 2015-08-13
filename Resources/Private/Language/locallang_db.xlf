@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-05-09T17:47:28Z" product-name="voices">
+		<header/>
+		<body>
+			<trans-unit id="tx_voices_domain_model_konzertplan">
+				<source>Konzertplan</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzertplan.bezeichnung">
+				<source>Bezeichnung</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzertplan.konzerts">
+				<source>Konzerts</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzertplan.singers">
+				<source>Singers</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part">
+				<source>Part</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.ja">
+				<source>Ja</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.nein">
+				<source>Nein</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.vielleicht">
+				<source>Vielleicht</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.comment">
+				<source>Comment</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.konzert">
+				<source>Konzert</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_part.singer">
+				<source>Singer</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert">
+				<source>Konzert</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.datum">
+				<source>Datum</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.beginn">
+				<source>Beginn</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.place">
+				<source>Place</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.remark">
+				<source>Remark</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.leitung_r">
+				<source>Leitung R</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.leitun_l">
+				<source>Leitun L</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.zusagen">
+				<source>Zusagen</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.absagen">
+				<source>Absagen</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.vielleichts">
+				<source>Vielleichts</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_konzert.parts">
+				<source>Parts</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_singer">
+				<source>Singer</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_singer.nachname">
+				<source>Nachname</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_singer.vorname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_voices_domain_model_singer.stimme">
+				<source>Stimme</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
